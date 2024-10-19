@@ -4,7 +4,7 @@ import requests
 
 class WeatherApp:
     def __init__(self):
-        self.api_key = 'd4c7d0ab38df3d0f45f417e963c8486a'  # Replace with your OpenWeather API key
+        self.api_key = 'YOUR_API_KEY'  # Replace with your OpenWeather API key
         self.root = tk.Tk()
         self.root.title("Weather App")
         self.root.geometry("400x200")
